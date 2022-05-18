@@ -9,11 +9,11 @@
   </head>
   <body>
     <div class="app">
-        <div class="vid-container">
-            <video loop>
-                <source src="./video/rain.mp4" type="video/mp4"/>
-            </video>
-        </div>
+      <div class="vid-container">
+        <video loop>
+          <source src="./video/rain.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div class="time-select">
         <button data-time="120">2 Minutes</button>
         <button data-time="300">5 Minutes</button>
@@ -40,7 +40,8 @@
             stroke-width="20"
           />
         </svg>
-        <svg class="moving-outline"
+        <svg
+          class="moving-outline"
           width="453"
           height="453"
           viewBox="0 0 453 453"
@@ -58,8 +59,12 @@
         <h3 class="time-display">0:00</h3>
       </div>
       <div class="sound-picker">
-<button data-sound="./sound/rain.mp3" data-video="./video/rain.mp4"><img src="./svg/rain.svg"></button> 
-<button data-sound="./sound/beach.mp3" data-video="./video/beach.mp4"><img src="./svg/beach.svg" alt="beach"></button>
+        <button data-sound="./sound/rain.mp3" data-video="./video/rain.mp4">
+          <img src="./svg/rain.svg" />
+        </button>
+        <button data-sound="./sound/beach.mp3" data-video="./video/beach.mp4">
+          <img src="./svg/beach.svg" alt="beach" />
+        </button>
       </div>
     </div>
     <script src="./app.js"></script>
