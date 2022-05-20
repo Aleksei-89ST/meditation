@@ -1,4 +1,4 @@
-
+const app = () => {
  const song = document.querySelector(".song");
  const play = document.querySelector(".play");
  const replay = document.querySelector(".replay");
@@ -80,4 +80,6 @@
      play.src = "./svg/play.svg";
      video.pause();
    }
- };
+ }
+};
+app();
